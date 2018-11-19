@@ -1,18 +1,11 @@
-require "vector"
+require "dataVector"
 
-function printVector(vct)
-  print(vct.oid())
-  for i=1,vct.size() do
-    print(i..":"..vct[i])
-  end
-end
-
-local vect1 = vector("xyz123")
+local vect1 = vector()
 
 vect1[1] = 10
 vect1[2] = 20
 
-local vect2 = vector("abc678")
+local vect2 = vector()
 
 vect2[1] = 100
 vect2[2] = 200
